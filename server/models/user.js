@@ -1,4 +1,5 @@
-import mongoose, { Types } from "mongoose";
+import mongoose from "mongoose";
+import moment from "moment";
 
 // Create database schema
 const UserSchema = new mongoose.Schema({
