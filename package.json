@@ -1,0 +1,33 @@
+{
+  "name": "mern",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./server/server.js --exec babel-node"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "helmet": "^8.0.0",
+    "hpp": "^0.2.3",
+    "moment": "^2.30.1",
+    "mongoose": "^8.9.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.26.4",
+    "@babel/core": "^7.26.0",
+    "@babel/node": "^7.26.0",
+    "@babel/preset-env": "^7.26.0",
+    "babel-loader": "^9.2.1",
+    "morgan": "^1.10.0",
+    "nodemon": "^3.1.9"
+  },
+  "prettier": {
+    "tabWidth": 4
+  }
+}
