@@ -53,3 +53,9 @@ router.post("/", (req, res) => {
         });
     });
 });
+
+router.post("/logout", (req, res) => {
+    res.json("Successfully log out");
+});
+
+export default router;
